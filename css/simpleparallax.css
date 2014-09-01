@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.parallax-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.parallax-overlay.pattern {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAT/GdHE/gP5jMiCYAGQIpggXAAmiCIAEgQAAE4FBbECyZcAAAAASUVORK5CYII=) repeat fixed;
+}
+.parallax-overlay.gradient {
+  background-color: #00eaff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00eaff), to(#88006d));
+  background-image: -webkit-linear-gradient(top, #00eaff, #88006d);
+  background-image: -moz-linear-gradient(top, #00eaff, #88006d);
+  background-image: -ms-linear-gradient(top, #00eaff, #88006d);
+  background-image: -o-linear-gradient(top, #00eaff, #88006d);
+}

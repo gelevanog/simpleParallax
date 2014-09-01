@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Parallax Plugin</title>
+	<link rel="stylesheet" href="css/simpleparallax.css">	
+	<style>
+		.parallax {			
+			font-family: sans-serif;
+			text-align: center;
+		}
+		.parallax h2 {
+			text-align: center;
+			display: inline-block;
+			background-color: #333;
+			margin: 0;
+			color: #fff;
+			position: absolute;
+			right: 0;
+			padding: 5px;
+			top: 50%;			
+		}
+	</style>
+</head>
+	<body>
+		<div class="parallax" style="background-image: url(http://lorempixel.com/1920/1600/nature/1);">
+			<h2>Default options</h2>
+		</div>
+		<div class="parallax" data-speed="0.5" style="background-image: url(http://lorempixel.com/1920/1600/nature/2);">
+			<h2>Speed</h2>
+		</div>
+		<div class="parallax" style="background-image: url(http://lorempixel.com/1920/1600/nature/3);" data-bg-color="#fc9400" data-overlay-opacity="0.3">
+			<h2>Opacity, Color</h2>
+		</div>
+		<div class="parallax" style="background-image: url(http://lorempixel.com/1920/1600/nature/4);" data-overlay-class="gradient" data-overlay-opacity="0.6">
+			<h2>Opacity, Gradient</h2>
+		</div>
+		<div class="parallax" style="background-image: url(http://lorempixel.com/1920/1600/nature/5);" data-overlay-class="pattern" data-overlay-opacity="0.6">
+			<h2>Opacity, Pattern</h2>
+		</div>
+		<div class="parallax" style="background-image: url(http://lorempixel.com/1920/1600/nature/6);" data-overlay-class="pattern" data-bg-color="#fc9400" data-overlay-opacity="0.6">
+			<h2>Opacity, Pattern, Color</h2>
+		</div>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/jquery.simpleparallax.js"></script>
+		<script>
+			$(function(){
+
+				$(".parallax").css("min-height", $(window).height());
+
+				$(".parallax").simpleParallax();
+			})
+		</script>
+	</body>	
+</html>

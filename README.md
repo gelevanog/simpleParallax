@@ -31,6 +31,12 @@ $(function(){
 })
 ```
 
+Install via bower
+=================
+```
+bower install simple-parallax
+```
+
 Options
 =======
 

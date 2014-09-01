@@ -1,0 +1,23 @@
+{
+  "name": "simpleParallax",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gelevanog/simpleParallax",
+  "authors": [
+    "Ivan Savchenko <gelevanog@gmial.com>"
+  ],
+  "description": "jQuery plugin, parallax effect",
+  "main": "js/jquery.simpleparallax.js",
+  "keywords": [
+    "parallax",
+    "jQuery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

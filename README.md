@@ -6,30 +6,30 @@ Simple parallax jQuery plugin http://simpleparallax.responsive.su/
 Usage
 =====
 
-1. Include jQuery:
-	```
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	```
-2. Add CSS style in head section:
-	```
-	<link rel="stylesheet" href="path/path/simpleparallax.css">	
-	```
-3. Include plugin's code:
-	```
-	<script src="js/jquery.simpleparallax.js"></script>
-	```
-4. Create markup:
-	```
-	<div class="parallax" data-speed="0.5" style="background-image: url(http://lorempixel.com/1920/1600/nature/2);">
-	...			
-	</div>
-	```
-5. Call the plugin:
-	```
-	$(function(){				
-		$(".parallax").simpleParallax();
-	})
-	```
+Include jQuery:
+```
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+```
+Add CSS style in head section:
+```
+<link rel="stylesheet" href="path/path/simpleparallax.css">	
+```
+Include plugin's code:
+```
+<script src="js/jquery.simpleparallax.js"></script>
+```
+Create markup:
+```
+<div class="parallax" data-speed="0.5" style="background-image: url(http://lorempixel.com/1920/1600/nature/2);">
+...			
+</div>
+```
+Call the plugin:
+```
+$(function(){				
+	$(".parallax").simpleParallax();
+})
+```
 
 Options
 =======

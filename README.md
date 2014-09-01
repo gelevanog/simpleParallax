@@ -7,7 +7,7 @@ Usage
 =====
 
 Include jQuery:
-```
+```html
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
 Add CSS style in head section:
